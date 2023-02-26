@@ -11,4 +11,21 @@ body {
     font-weight: 300;
     color: #2e2e2e;
 }
+/* headings and logo */
+
+h1, h2 {
+    font-family: Teko, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    color: #141414;
+}
+
+#logo {
+    text-align: center;
+    font-size: 270%;
+    margin: 0 auto;
+}
+
+
+
 
