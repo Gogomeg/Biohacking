@@ -12,20 +12,3 @@ body {
     color: #2e2e2e;
 }
 
-/* headings and logo */
-
-
-h1, h2 {
-    font-family: Teko, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    color: #141414;
-    text-decoration: none !important;
-}
-
-#logo {
-    text-align: center;
-    font-size: 270%;
-    margin: 0 auto;
-    border-bottom-style:outset;
-}
