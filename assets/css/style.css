@@ -21,11 +21,11 @@ h1, h2 {
 }
 
 #logo {
-    text-align: center;
-    font-size: 270%;
-    margin: 0 auto;
+    float: inline-end;
+    font-size: 300%;
+   }
+   a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: none;
 }
-
-
-
-
