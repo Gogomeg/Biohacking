@@ -143,7 +143,6 @@ margin-left: 0;
     padding-top: 30px;
        width: 50%;
        float: left;
-       color: green;
        left: 30px;
     }
     
@@ -151,21 +150,18 @@ margin-left: 0;
 padding-top: 30px;
    width: 50%;
    float: right;
-   color: red;
-   right: 30px;
+}  
+
+#background-picture h1 {
+    font-size: 170%; !important
 }
 
-
-
-hr {
-    width: 100%;
-    margin: 5px;
-}
 .left-about-heading {
     width: 60%;
     float: right;
     line-height: 20px;
     clear: both;
+    font-size: 150%;
     margin-bottom: 50px;
 }
 
@@ -173,6 +169,7 @@ hr {
     width: 60%;
     float: right;
     line-height: 20px;
+    font-size: 150%;
     clear: both;
     margin-bottom: 50px;
 }
@@ -181,4 +178,10 @@ hr {
     background: url("../images/silhouettes-tree-man-book.jpg") no-repeat center center;
     height: 400px;
     width: 100%;
+}
+.right-about-heading h2 {
+    font-size: 100%; !important
+}
+.left-about-heading h2 {
+    font-size: 100%; !important
 }
