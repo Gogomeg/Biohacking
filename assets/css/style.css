@@ -29,3 +29,28 @@ h1, h2 {
     cursor: pointer;
     text-decoration: none;
 }
+
+/* navigation links */
+
+#menu {
+    font-size: 120%;
+    letter-spacing: 8px;
+}
+
+#menu, #logo {
+    line-height: 50px;
+}
+
+#menu li {
+    text-align: center;
+    margin-right: 100px;
+    display: inline;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+#menu a:hover {background-color:#706868; color:beige;
+
+}
