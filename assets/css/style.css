@@ -14,10 +14,14 @@ body {
 /* headings and logo */
 
 h1, h2 {
+    margin-left: 30px;
     font-family: Teko, sans-serif;
     text-transform: uppercase;
     letter-spacing: 8px;
     color: #141414;
+}
+header{
+    background-color: rgb(196, 179, 131, 0.57);
 }
 
 #logo {
@@ -137,25 +141,21 @@ margin-left: 0;
 
 #left-about {
     padding-top: 30px;
-       width: 33%;
+       width: 50%;
        float: left;
        color: green;
+       left: 30px;
     }
     
 #right-about{
-    padding-top: 30px;
-   width: 33%;
+padding-top: 30px;
+   width: 50%;
    float: right;
    color: red;
+   right: 30px;
 }
 
 
-#center-about {
-    padding-top: 30px;
-    text-align: center;
-   margin: 0 auto;
-   color: blue;
-}
 
 hr {
     width: 100%;
@@ -176,9 +176,9 @@ hr {
     clear: both;
     margin-bottom: 50px;
 }
-.right-about-heading h2 {
-    text-align: right;
-  }
-.right-about-heading p {
-    text-align: right;
-   }
+
+#background-picture {
+    background: url("../images/silhouettes-tree-man-book.jpg") no-repeat center center;
+    height: 400px;
+    width: 100%;
+}
