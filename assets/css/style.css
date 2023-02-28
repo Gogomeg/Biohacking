@@ -24,11 +24,13 @@ h1, h2 {
     float: inline-end;
     font-size: 300%;
    }
+
    a:-webkit-any-link {
     color: -webkit-link;
     cursor: pointer;
     text-decoration: none;
 }
+  
 
 /* navigation links */
 
@@ -42,15 +44,21 @@ h1, h2 {
 }
 
 #menu li {
-    text-align: center;
+    float: left;
     margin-right: 100px;
     display: inline;
+    padding: 0 1em;
 }
 
 #menu a {
     text-decoration: none;
     color: inherit;
 }
-#menu a:hover {background-color:#706868; color:beige;
-
+#menu a:hover {
+background-color:#706868; color:beige;
 }
+header h1 {background-color: rgb(218, 218, 195);}
+.active {
+    background-color: #706868; color: beige;
+}
+ 
