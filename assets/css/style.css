@@ -230,17 +230,16 @@ padding-top: 70px;
     color: #6bf1f1;
 } 
 
- /* event times */
+ /* event times page */
 
  #events {
+    clear: left;
     background: url("../images/full-shot-travel-concept-with-landmarks.jpg") no-repeat center center;
-    width: 100%;
-    overflow: hidden;
     height: 1200px;
    }
  
    #events div {
-    margin-top: 400px;
+    margin-top: 200px;
     color: beige;
     background-color: rgba(0, 0, 0, .6);
     width: 20%;
@@ -345,24 +344,21 @@ footer > li {
     margin-top: 80px;
     color: beige;
     background-color: rgba(0, 0, 0, .6);
-    width: 50%;
+    width: 33%;
     height: 200px;
     padding: 0;
     text-align: center;
-    border: 2px solid beige;
+    border: 1px solid beige;
     box-sizing: border-box;
     display: block;
     font-size: 100%;
 }
-#events {
-    background: url("../images/full-shot-travel-concept-with-landmarks.jpg") no-repeat center center;
-    width: 100%;
-    overflow: hidden;
-    height: 1000px;
-   }
 
-   footer {
-    height: 50px;
-    float: left;
+   #events {
+    clear: left;
+    background: url("../images/full-shot-travel-concept-with-landmarks.jpg") no-repeat center center;
+    background-size: cover;
+    background-position: center;
+    height: 900px;
    }
 }
