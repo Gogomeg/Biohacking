@@ -86,3 +86,13 @@ iframe {
     height: 400px;
     margin-left: 40px;
 }
+
+/* Adapt to smart phone screen */
+
+@media screen and (max-width: 950px) 
+{
+.video-container {
+width: 200px;
+margin-left: 0;
+}
+}
