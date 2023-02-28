@@ -175,24 +175,7 @@ padding-top: 70px;
     font-size: 100%;
 }
 
-/* footer */
 
-footer {
-    height: 150px;
-   }
-   .social-networks {
-    text-align: center;
- 
-   }
-   .social-networks > li {
-    display: inline;
-   }
-   .social-networks i {
-    font-size: 160%;
-    margin: 1%;
-    padding: 5%;
-    color: #1d1d1d;
-   }
 
    /* Form */
 
@@ -246,6 +229,53 @@ footer {
     background-color: beige;
     color: #6bf1f1;
 } 
+
+ /* event times */
+
+ #events {
+    background: url("../images/full-shot-travel-concept-with-landmarks.jpg") no-repeat center center;
+    width: 100%;
+    overflow: hidden;
+    height: 1200px;
+   }
+ 
+   #events div {
+    margin-top: 400px;
+    color: beige;
+    background-color: rgba(0, 0, 0, .6);
+    width: 20%;
+    height: 400px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    border: 2px solid beige;
+    box-sizing: border-box;
+    display: inline-block;
+    font-size: 200%;
+    float: left;
+   }
+   #events h2 {
+    margin-top: 30px;
+    color: beige;
+   }
+
+/* footer */
+
+footer {
+    height: 150px;
+   }
+   .social-networks {
+    text-align: center;
+ 
+   }
+   .social-networks > li {
+    display: inline;
+   }
+   .social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #1d1d1d;
+   }
 
 /* Adapt to smart phone screen */
 
@@ -307,4 +337,32 @@ footer > li {
     text-align: -webkit-match-parent;
 }
 
+}
+
+@media screen and (max-width: 1400px) 
+{
+#events div {
+    margin-top: 80px;
+    color: beige;
+    background-color: rgba(0, 0, 0, .6);
+    width: 50%;
+    height: 200px;
+    padding: 0;
+    text-align: center;
+    border: 2px solid beige;
+    box-sizing: border-box;
+    display: block;
+    font-size: 100%;
+}
+#events {
+    background: url("../images/full-shot-travel-concept-with-landmarks.jpg") no-repeat center center;
+    width: 100%;
+    overflow: hidden;
+    height: 1000px;
+   }
+
+   footer {
+    height: 50px;
+    float: left;
+   }
 }
