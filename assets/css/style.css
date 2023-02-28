@@ -239,7 +239,7 @@ padding-top: 70px;
    }
  
    #events div {
-    margin-top: 200px;
+    margin-top: 400px;
     color: beige;
     background-color: rgba(0, 0, 0, .6);
     width: 20%;
@@ -248,8 +248,8 @@ padding-top: 70px;
     text-align: center;
     border: 2px solid beige;
     box-sizing: border-box;
-    display: inline-block;
-    font-size: 200%;
+    display: inline;
+    font-size: 180%;
     float: left;
    }
    #events h2 {
@@ -345,13 +345,13 @@ footer > li {
     color: beige;
     background-color: rgba(0, 0, 0, .6);
     width: 33%;
-    height: 200px;
+    height: 300px;
     padding: 0;
     text-align: center;
     border: 1px solid beige;
     box-sizing: border-box;
     display: block;
-    font-size: 100%;
+    font-size: 120%;
 }
 
    #events {
