@@ -47,7 +47,8 @@ h1, h2 {
     float: left;
     margin-right: 100px;
     display: inline;
-    padding: 0 1em;
+    padding: 1em 1em;
+    overflow: auto;
 }
 
 #menu a {
@@ -64,10 +65,32 @@ header h1 {background-color: rgb(218, 218, 195);}
  
 /* happy image */
 
+.main-image {
+    padding-top: 0;
+}
+
 #happy-image {
     height: 600px;
     width: 100%;
     background: url("../images/young-sportswoman-using-blender-preparing-fresh-fruit-smoothie-kitchen\ \(1\).jpg") no-repeat center center;
+}
+#cover-text
+{
+font-size: 130%;
+   font-family: Teko, sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 6px;
+   width: 300px;
+   height: 200px;
+   padding-top: 40px;
+   padding-left: 10px;
+   background-color:rgba(162, 223, 225, 0.34);
+   top: 200px;
+   left: 500px;
+position: fixed;
+}
+#cover-text h2 {
+    text-align: left;
 }
 
 /* Youtube video */
@@ -94,5 +117,9 @@ iframe {
 .video-container {
 width: 200px;
 margin-left: 0;
+}
+#cover-text {
+    top: 500px;
+   left: 50px;
 }
 }
