@@ -129,6 +129,53 @@ margin-left: 0;
     top: 500px;
    left: 50px;
 }
+#left-about {
+margin-left: 0;
+padding-left: 0;    
+}
+.social-networks {
+    float: left;
+    columns: 2;
+   }
+   .social-networks > li {
+    display: block;
+   }
+   .social-networks i {
+    font-size: 80%;
+    margin: 1%;
+    padding: 3%;
+    color: #3a3a3a;
+   }
+   #left-about {
+    padding-top: 10px;
+       width: 33%;
+       float: left;
+    }
+    
+#right-about{
+padding-top: 10px;
+   width: 33%;
+   float: right;
+}  
+
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 5px;
+    clear: both;
+    font-size: 120%;
+    margin-bottom: 50px;
+}
+
+.right-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 5px;
+    font-size: 120%;
+    clear: both;
+    margin-bottom: 50px;
+}
+
 }
 
 /* Hacks to implement */
@@ -187,3 +234,22 @@ padding-top: 100px;
 .left-about-heading h2 {
     font-size: 100%;
 }
+
+/* footer */
+
+footer {
+    height: 150px;
+   }
+   .social-networks {
+    text-align: center;
+ 
+   }
+   .social-networks > li {
+    display: inline;
+   }
+   .social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+   }
