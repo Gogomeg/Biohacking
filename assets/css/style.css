@@ -117,66 +117,6 @@ iframe {
     background-color: rgb(196, 179, 131, 0.57);
 }
 
-/* Adapt to smart phone screen */
-
-@media screen and (max-width: 950px) 
-{
-.video-container {
-width: 200px;
-margin-left: 0;
-}
-#cover-text {
-    top: 500px;
-   left: 50px;
-}
-#left-about {
-margin-left: 0;
-padding-left: 0;    
-}
-.social-networks {
-    float: left;
-    columns: 2;
-   }
-   .social-networks > li {
-    display: block;
-   }
-   .social-networks i {
-    font-size: 80%;
-    margin: 1%;
-    padding: 3%;
-    color: #3a3a3a;
-   }
-   #left-about {
-    padding-top: 10px;
-       width: 33%;
-       float: left;
-    }
-    
-#right-about{
-padding-top: 10px;
-   width: 33%;
-   float: right;
-}  
-
-.left-about-heading {
-    width: 60%;
-    float: right;
-    line-height: 5px;
-    clear: both;
-    font-size: 120%;
-    margin-bottom: 50px;
-}
-
-.right-about-heading {
-    width: 60%;
-    float: right;
-    line-height: 5px;
-    font-size: 120%;
-    clear: both;
-    margin-bottom: 50px;
-}
-
-}
 
 /* Hacks to implement */
 
@@ -187,7 +127,7 @@ padding-top: 10px;
 
 
 #left-about {
-    padding-top: 100px;
+    padding-top: 70px;
        width: 50%;
        float: left;
        left: 30px;
@@ -195,7 +135,7 @@ padding-top: 10px;
     }
     
 #right-about{
-padding-top: 100px;
+padding-top: 70px;
    width: 50%;
    float: right;
    text-align: right;
@@ -251,5 +191,120 @@ footer {
     font-size: 160%;
     margin: 1%;
     padding: 5%;
-    color: #3a3a3a;
+    color: #1d1d1d;
    }
+
+   /* Form */
+
+.form-section {
+    clear: left;
+    background: url("../images/people-stacking-hands-together-park.jpg") no-repeat center center;
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
+.signup-form {
+    margin: 150px 10% 0 0;
+    color:beige;
+    background-color: rgba(162, 223, 225, 0.34);;
+    max-width: 400px;
+    position: absolute;
+    left: 10%;
+    padding: 30px;
+}
+.signup-form h2 {
+    color: beige;
+    margin-bottom: 20px;
+}
+
+.text-input {
+    background: transparent;
+    color: beige;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid rgb(196, 179, 131, 0.57);
+    border-radius: 3px;
+}
+
+.text-input:hover {
+    border-color: #6bf1f1;
+}
+
+.join-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #6bf1f1;
+    color: beige;
+    display: block;
+}
+
+.join-button:hover {
+    background-color: beige;
+    color: #6bf1f1;
+} 
+
+/* Adapt to smart phone screen */
+
+@media screen and (max-width: 950px) 
+{
+.video-container {
+width: 200px;
+margin-left: 0;
+}
+#cover-text {
+    top: 500px;
+   left: 50px;
+}
+#left-about {
+margin-left: 0;
+padding-left: 0;    
+}
+.social-networks {
+    float: left;
+    columns: 2;
+   }
+   .social-networks > li {
+    display: block;
+   }
+   .social-networks i {
+    font-size: 80%;
+    margin: 1%;
+    padding: 3%;
+    color: #1d1d1d;
+   }
+   #left-about {
+    padding-top: 5px;
+       float: left;
+    }
+    
+#right-about{
+padding-top: 5px;
+   float: right;
+}  
+
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 15px;
+    clear: both;
+    font-size: 120%;
+    margin-bottom: 50px;
+}
+
+.right-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 15px;
+    font-size: 120%;
+    clear: both;
+    margin-bottom: 50px;
+}
+footer > li {
+    text-align: -webkit-match-parent;
+}
+
+}
