@@ -76,7 +76,9 @@ header h1 {background-color: rgb(196, 179, 131, 0.57);}
 #happy-image {
     height: 600px;
     width: 100%;
-    background: url("../images/young-sportswoman-using-blender-preparing-fresh-fruit-smoothie-kitchen\ \(1\).jpg") no-repeat center center;
+    clear: left;
+    background-size: cover;
+    background: url("../images/young-sportswoman-using-blender-preparing-fresh-fruit-smoothie-kitchen\ \(1\).jpg") no-repeat;
 }
 #cover-text
 {
@@ -152,6 +154,7 @@ padding-top: 70px;
     clear: both;
     font-size: 150%;
     margin-bottom: 50px;
+    margin-left: 10px;
 }
 
 .right-about-heading {
@@ -161,10 +164,13 @@ padding-top: 70px;
     font-size: 150%;
     clear: both;
     margin-bottom: 50px;
+    margin-right: 80px;
 }
 
 #background-picture {
     background: url("../images/silhouettes-tree-man-book.jpg") no-repeat center center;
+    background-size: cover;
+    clear: left;
     height: 600px;
     width: 100%;
 }
@@ -334,6 +340,13 @@ padding-top: 5px;
 }
 footer > li {
     text-align: -webkit-match-parent;
+}
+#menu li {
+    float: left;
+    margin-right: 30px;
+    display: inline;
+    padding: 1em 1em;
+    overflow: auto;
 }
 
 }
