@@ -99,7 +99,6 @@ position: absolute;
 /* Youtube video */
 
 iframe {
-    overflow-clip-margin: content-box !important;
     border-width: 2px;
     border-style: inset;
     border-color: initial;
