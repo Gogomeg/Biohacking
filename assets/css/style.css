@@ -349,6 +349,13 @@ padding-top: 5px;
   width: 300px;
   height: 365px;
   margin-left: 20px;
+  iframe {
+    border-width: 1px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+}
+
 
 }
 
