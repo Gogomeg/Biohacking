@@ -345,11 +345,11 @@ padding-top: 5px;
     overflow: auto;
 }
   .video-container {
-  width: 300px;
+  width: 33%;
   height: 365px;
   margin-left: 0;
   iframe {
-    border-width: 1px;
+   border-width: 1px;
 }
 
 
