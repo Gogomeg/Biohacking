@@ -103,7 +103,6 @@ iframe {
     border-style: inset;
     border-color: initial;
     border-image: initial;
-    overflow: clip !important;
 }
 
 .video-container {
