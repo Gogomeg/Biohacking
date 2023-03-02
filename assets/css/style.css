@@ -345,6 +345,10 @@ padding-top: 5px;
     padding: 1em 1em;
     overflow: auto;
 }
+  .video-container {
+  width: 300px;
+  height: 365px;
+  margin-left: 20px;
 
 }
 
