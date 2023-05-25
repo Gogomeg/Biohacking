@@ -286,37 +286,35 @@ footer {
 @media screen and (max-width: 950px) 
 {
 .video-container {
-width: 200px;
-margin-left: 0;
+    width: 200px;
+    margin-left: 0;
 }
 #cover-text {
     top: 500px;
-   left: 50px;
+    left: 50px;
 }
 #left-about {
-margin-left: 0;
-padding-left: 0;    
+    margin-left: 0;
+    padding-left: 0;    
 }
 .social-networks > li {
     display: inline;
     float: left;
     margin: 50px 0 10px 100px;
    }
-   .social-networks i {
+.social-networks i {
     font-size: 80%;
     margin: 10%;
     padding: 10%;
     margin-right: 20px;
     color: #1d1d1d;
    }
-   #left-about {
+#left-about {
     padding-top: 5px;
-       float: left;
     }
     
 #right-about{
-padding-top: 5px;
-   float: right;
+    padding-top: 5px;
 }  
 
 .left-about-heading {
@@ -344,17 +342,28 @@ padding-top: 5px;
     padding: 1em 1em;
     overflow: auto;
 }
-  .video-container {
-  width: 350px;
-  height: 365px;
-  margin-left: 0;
-  overflow: overlay;    
+.video-container {
+    width: 350px;
+    height: 365px;
+    margin-left: 0;
+    overflow: overlay;    
 }      
-  iframe {
-   border-width: 1px;
+iframe {
+    border-width: 1px;
 }
-
-
+#events div {
+    margin-top: 80px;
+    color: beige;
+    background-color: rgba(0, 0, 0, .6);
+    width: 75%;
+    height: 2000px;
+    padding: 0;
+    text-align: center;
+    border: 1px solid beige;
+    box-sizing: border-box;
+    font-size: 150%;
+    margin-left: 50px;
+}
 }
 
 @media screen and (max-width: 1400px) 
