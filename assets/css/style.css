@@ -270,8 +270,8 @@ footer {
    .social-networks > li {
     display: inline-flex;
     justify-content: flex-start;
-    font-size: 30px;
-    padding: 80px;
+    font-size: 40px;
+    padding: 60px;
 }
    }
    .social-networks i {
@@ -297,11 +297,7 @@ margin-left: 0;
 margin-left: 0;
 padding-left: 0;    
 }
-.social-networks {
-    float: left;
-    columns: 2;
-   }
-   .social-networks > li {
+.social-networks > li {
     display: inline;
     float: left;
     margin: 50px 0 10px 100px;
