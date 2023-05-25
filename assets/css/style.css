@@ -57,10 +57,13 @@ header{
 
 #menu a {
     text-decoration: none;
-    color: rgb(57, 142, 114);
+    background-color: #a18d9a;
+    color: #f5fafa;
 }
+
 #menu a:hover {
-background-color:#706868; color:beige;
+    background-color:#94e8ee; 
+    color:rgb(121, 56, 101);
 }
 header h1 {background-color: rgb(196, 179, 131, 0.57);}
 .active {
@@ -243,7 +246,7 @@ padding-top: 70px;
     margin-top: 400px;
     color: beige;
     background-color: rgba(0, 0, 0, .6);
-    width: 90%;
+    width: 33%;
     height: 300px;
     padding: 10px 10px 10px 10px;
     text-align: center;
@@ -376,7 +379,7 @@ footer {
     margin-top: 80px;
     color: beige;
     background-color: rgba(0, 0, 0, .6);
-    width: 75%;
+    width: 33%;
     height: 250px;
     padding: 0;
     text-align: center;
