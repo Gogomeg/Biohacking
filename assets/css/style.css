@@ -268,7 +268,11 @@ footer {
  
    }
    .social-networks > li {
-    display: inline;
+    display: inline-flex;
+    justify-content: flex-start;
+    font-size: 30px;
+    padding: 80px;
+}
    }
    .social-networks i {
     font-size: 160%;
