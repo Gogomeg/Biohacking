@@ -440,10 +440,12 @@ footer {
 }
 #left-about {
     padding-top: 5px;
+    width: 100%;
 }
 
 #right-about{
     padding-top: 5px;
+    width: 100%;
 }  
 
 .left-about-heading {
@@ -496,4 +498,5 @@ iframe {
 #events {
     padding: 30px;
 }
+
 }
