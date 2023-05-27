@@ -4,7 +4,7 @@ In case their interest is sparked they can further subscribe to receive updated 
 Also, for a better understanding of the terms, links are being offered to websites that could broaden the insights even further.
 There is no intention to commercialize any products or services, that is why the website is maintaining general and informative.
 
-![image](https://user-images.githubusercontent.com/122981098/222277380-b99f906c-628d-4b60-8734-552adb6965f0.png)
+![image](https://github.com/Gogomeg/Biohacking/assets/122981098/7bf02595-6e6d-4497-9bd1-4ea9cd7315f6)
 
  
 ## Existing features
