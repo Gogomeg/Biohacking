@@ -111,24 +111,26 @@ Responsive design, as the layout and the styling changes and adapts to smaller s
 
 
 The text size becomes smaller and the spacing in between as well to accommodate to a smaller screen (Home page):
- 
-![image](https://github.com/Gogomeg/Biohacking/assets/122981098/3b36fff0-692c-4d9b-ba7f-1b18d3c34536)
+ ![image](https://github.com/Gogomeg/Biohacking/assets/122981098/637d1ed2-b523-43e8-aa2a-e3aabc134b40)
+
 
 
 
 As opposed to regular desktop screen:
- ![image](https://user-images.githubusercontent.com/122981098/222277643-8152ff36-f1c6-4dd7-8d5f-c870f6d09874.png)
+![image](https://github.com/Gogomeg/Biohacking/assets/122981098/245d1ec1-c14d-43bc-9e9a-19a7e1605667)
+
 
 
 # 6)	Footer
 The footer is repeating in all the pages and it has links which open is separate windows. It is changing size and alignment to be adjusted for responsive design.
 Small screen:
- 
-![image](https://user-images.githubusercontent.com/122981098/222277662-583cacd1-0fd2-4c18-bc40-164f410ad63f.png)
+![image](https://github.com/Gogomeg/Biohacking/assets/122981098/d2bfc52f-67d2-41e2-bd8b-d32ccb7382c4)
+
 
 
 Desktop screen:
- ![image](https://user-images.githubusercontent.com/122981098/222277673-8a7c2420-1794-45f0-a672-8e6b64407a78.png)
+![image](https://github.com/Gogomeg/Biohacking/assets/122981098/9b753eec-eab0-49f3-bfd7-0973529af076)
+
 
 
 # 7)	Events page
