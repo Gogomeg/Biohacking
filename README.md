@@ -112,11 +112,7 @@ Responsive design, as the layout and the styling changes and adapts to smaller s
 
 The text size becomes smaller and the spacing in between as well to accommodate to a smaller screen (Home page):
  
-![image](https://user-images.githubusercontent.com/122981098/222277624-4e59c750-7b7b-4fd3-9e6d-bbf9ad129e16.png)
-
-
-
-
+![image](https://github.com/Gogomeg/Biohacking/assets/122981098/3b36fff0-692c-4d9b-ba7f-1b18d3c34536)
 
 
 
