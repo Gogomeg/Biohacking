@@ -9,16 +9,27 @@
 body {
     font-family: Teko, sans-serif;
     font-weight: 300;
-    color: #2e2e2e;
+    color: #d6c8c8;
+    width: 700px;
 }
 /* headings and logo */
-
-h1, h2 {
+h1 {
     margin-left: 30px;
     font-family: Teko, sans-serif;
     text-transform: uppercase;
     letter-spacing: 8px;
-    color: #141414;
+    color: #332929;
+    margin-bottom: 30px;
+}
+
+h2 {
+    margin-left: 30px;
+    font-family: Teko, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #dfd8d8;
+    margin-bottom: 30px;
+    background-color: rgb(19 25 25 / 34%);
 }
 header{
     background-color: rgb(196, 179, 131, 0.57);
@@ -127,18 +138,19 @@ iframe {
 
 
 #left-about {
-    padding-top: 70px;
-       width: 50%;
-       float: left;
-       left: 30px;
-       text-align: left;
+    width: 50%;
+    float: left;
+    left: 30px;
+    text-align: left;
+    background-color: rgb(19 25 25 / 34%);
     }
     
 #right-about{
-padding-top: 70px;
+   padding-top: 70px;
    width: 50%;
    float: right;
    text-align: right;
+   background-color: rgb(19 25 25 / 34%);
 }  
 
 #background-picture h1 {
@@ -169,7 +181,7 @@ padding-top: 70px;
     background: url("../images/silhouettes-tree-man-book.jpg") no-repeat center center;
     background-size: cover;
     clear: left;
-    height: 600px;
+    height: 800px;
     width: 100%;
 }
 .right-about-heading h2 {
@@ -276,7 +288,6 @@ footer {
     font-size: 40px;
     padding: 30px;
 }
-   }
    .social-networks i {
     font-size: 160%;
     margin: 1%;
@@ -292,20 +303,17 @@ footer {
         width: 200px;
         margin-left: 0;
 }
+
     #cover-text {
         top: 500px;
         left: 50px;
 }
-    #left-about {
-        margin-left: 0;
-        padding-left: 0;    
-}
+       
     .social-networks > li {
         display: inline-block;
-        padding-left: 80px;
+        padding-left: 200px;
         justify-content: space-between;
 }
-   }
     .social-networks i {
         font-size: 80%;
         margin: 10%;
@@ -314,11 +322,11 @@ footer {
         color: #1d1d1d;
    }
     #left-about {
-        padding-top: 5px;
+        padding-top: 75px;
     }
     
     #right-about{
-        padding-top: 5px;
+        padding-top: 75px;
 }  
 
     .left-about-heading {
@@ -405,7 +413,7 @@ footer {
    }
 #cover-text
 {
-   background-color:rgba(219, 185, 154, 0.80);
+   background-color:rgb(122 100 80 / 80%);
    float: left;
 }
 #cover-text h2 {
@@ -480,6 +488,7 @@ footer {
 }      
 iframe {
     border-width: 1px;
+    width: auto;
 }
 #events div {
     margin-top: 80px;
