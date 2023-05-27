@@ -1,4 +1,4 @@
-BIOHACKING
+###BIOHACKING
 The purpose of the website is to make a short introduction for people that are just taking interest in the topic of biohacking and offer some resources in case they want to expand their knowledge either web based or in person. 
 In case their interest is sparked they can further subscribe to receive updated information on the events that are taking place surrounding the topic.
 Also, for a better understanding of the terms, links are being offered to websites that could broaden the insights even further.
@@ -7,15 +7,15 @@ There is no intention to commercialize any products or services, that is why the
 ![image](https://user-images.githubusercontent.com/122981098/222277380-b99f906c-628d-4b60-8734-552adb6965f0.png)
 
  
-Existing features
-1)	Navigation Bar
+##Existing features
+#1)	Navigation Bar
 a.	Featured on all three pages, the full responsive navigation bar includes links to the  Home page, Events page and Sign Up page and is identical in each page to allow for easy navigation.
 b.	This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
 c.	Header navigation links changing font colour if hovered over or selected.
 ![image](https://user-images.githubusercontent.com/122981098/222277396-07c91f11-37cd-46aa-810a-9de9074eb911.png)
 
  
-2)	Application form
+#2)	Application form
 a.	There is only one selected option possible/allowable before subscribing
 b.	When actioning the submit button it changes colour
 c.	When hovering over the fill out fields, the border is changing colour.
@@ -38,7 +38,7 @@ c.	When hovering over the fill out fields, the border is changing colour.
 
 
 
-3)	Main page opening image
+#3)	Main page opening image
 a.	The opening images (there are 2, depending on the monitor size) to the main page are the ones that are visually hinting to the title of the website – “Biohacking” making it even more obvious what is the approached topic and by this accessible.
 b.	The cover sticker text is hinting to the next event around the main topic which is going to take place, also ensuring a preview into the events page and the purpose of the website.
 c.	The sticker with the cover text is changing its styling depending on the displayed image design, so it’s adapted for responsive navigation
@@ -94,14 +94,14 @@ The same image when the screen is stretched to smart phone size:
 
 
 
-4)	Main page iframe video
+#4)	Main page iframe video
 The iframe from the main page is muted when first played and it has all the controls handy, not on auto-play as the page loads
  ![image](https://user-images.githubusercontent.com/122981098/222277547-fca889d7-281f-42f1-a780-fb1809aa8084.png)
 ![image](https://user-images.githubusercontent.com/122981098/222277566-cf664c27-c2d4-4905-a88b-ef283923e11d.png)
 
  
 
-5)	Main page general considerations
+#5)	Main page general considerations
 Responsive design, as the layout and the styling changes and adapts to smaller screens than desktop. As well, in the main page, the first background image is replaced by one with a smaller resolution, to maintain an attractive design for smaller screens.
  
 ![image](https://user-images.githubusercontent.com/122981098/222277592-5eaf5278-db2c-4dcb-bfea-e3344b9cc664.png)
@@ -124,7 +124,7 @@ As opposed to regular desktop screen:
  ![image](https://user-images.githubusercontent.com/122981098/222277643-8152ff36-f1c6-4dd7-8d5f-c870f6d09874.png)
 
 
-6)	Footer
+#6)	Footer
 The footer is repeating in all the pages and it has links which open is separate windows. It is changing size and alignment to be adjusted for responsive design.
 Small screen:
  
@@ -135,7 +135,7 @@ Desktop screen:
  ![image](https://user-images.githubusercontent.com/122981098/222277673-8a7c2420-1794-45f0-a672-8e6b64407a78.png)
 
 
-7)	Events page
+#7)	Events page
 The background image is well matched with the focus of the page. It has responsive design depending on the screen size.
 
 
@@ -161,7 +161,7 @@ Regular desktop screen version:
  ![image](https://user-images.githubusercontent.com/122981098/222277742-00d6cc6c-7947-4fbe-870d-daa2b1fb223b.png)
 
 
-8)	Sign-up page
+#8)	Sign-up page
 The background image is well matched with the focus of the page. It has responsive design depending on the screen size.
 
 
@@ -184,7 +184,7 @@ Desktop sized view:
   ![image](https://user-images.githubusercontent.com/122981098/222277781-a67bb925-fba6-49ee-8e28-4ccf45b8d190.png)
 
 
-9)	Other general considerations
+#9)	Other general considerations
 The styling and the colours repeat themselves throughout all the pages, not straining to much the attention of the user and making it easy to navigate.
 The links (the ones used in the events time lines and in the footer social media components) are opening in brand new pages, lifting the necessity to use the back button to return to the initial web page. 
 Font Awesome icons have been used in line with each paragraph / division content to easily isolate different categories and for an intuitive navigation, which is working toward reducing the effort the users would have to undertake.
@@ -202,7 +202,7 @@ The CSS code has been validated with W3C Validator and the HTML code has been as
 
 
 
-10)	Deployment
+#10)	Deployment
 The site was deployed to GitHub pages. The steps to deploy are as follows:
 o	In the GitHub repository, navigate to the Settings tab
 o	From the source section drop-down menu, select the Master Branch
