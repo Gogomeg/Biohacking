@@ -299,6 +299,9 @@ footer {
 
 @media screen and (max-width: 950px) 
 {
+.navbar {
+    width: 950px;
+    }
 #menu {
         font-size: 80%;
         letter-spacing: 8px;
@@ -420,6 +423,9 @@ footer {
 
 @media screen and (max-width: 1400px) 
 {
+.navbar {
+    width: 1400px;
+    }
 #events div {
     margin-top: 80px;
     color: beige;
@@ -465,6 +471,9 @@ footer {
 }
 @media screen and (max-width: 850px)
 {
+    .navbar {
+        width: 850px;
+    }
     #background-picture {
         width: 850px;
         height: 600px;
@@ -591,6 +600,9 @@ p {
 
 @media screen and (max-width: 650px)
 {
+    .navbar {
+        width: 650px;
+    }
     #background-picture {
         width: 650px;
         height: 600px;
@@ -725,6 +737,9 @@ p {
 
 @media screen and (max-width: 400px)
 {
+    .navbar {
+        width: 400px;
+    }
     #background-picture {
         width: 400px;
         height: 600px;
@@ -858,6 +873,9 @@ p {
 }
 @media screen and (max-width: 450px)
 {
+    .navbar {
+        width: 450px;
+    }
     #background-picture {
         width: 450px;
         height: 600px;
@@ -992,6 +1010,9 @@ p {
 
 @media screen and (max-width: 500px)
 {
+    .navbar {
+        width: 500px;
+    }
     #background-picture {
         width: 500px;
         height: 600px;
@@ -1126,6 +1147,9 @@ p {
 
 @media screen and (max-width: 550px)
 {
+    .navbar {
+        width: 550px;
+    }
     #background-picture {
         width: 550px;
         height: 600px;
@@ -1260,6 +1284,9 @@ p {
 
 @media screen and (max-width: 600px)
 {
+    .navbar {
+        width: 600px;
+    }
     #background-picture {
         width: 600px;
         height: 600px;
@@ -1394,6 +1421,9 @@ p {
 
 @media screen and (max-width: 900px)
 {
+    .navbar {
+        width: 900px;
+    }
     #background-picture {
         width: 844px;
         height: 600px;
@@ -1528,6 +1558,9 @@ p {
 
 @media screen and (max-width: 800px)
 {
+    .navbar {
+        width: 800px;
+    }
     #background-picture {
         width: 800px;
         height: 600px;
