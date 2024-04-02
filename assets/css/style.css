@@ -469,6 +469,143 @@ footer {
     height: 600px;
 }
 }
+@media screen and (max-width: 900px)
+{
+    .navbar {
+        width: 900px;
+    }
+    #background-picture {
+        width: 844px;
+        height: 600px;
+    }
+    #happy-image {
+        width: 844px;
+        height: 600px;
+        background-size: cover;
+        background: url(../images/artificial-intelligence-nanobot-biohacking-concept\ \(3\).jpg)no-repeat;
+       }
+    #video {
+        width: 844px;
+    }
+    
+    .social-networks {
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+}
+    #menu {
+        font-size: 80%;
+        letter-spacing: 8px;
+        display: flex;
+        flex-direction: column;
+}       
+    .social-networks > li {
+        width: 280px;
+        display: flex;
+        justify-content: space-evenly;
+        align-content: space-around;
+}
+.video-container {
+    width: 844px;
+    margin-left: 0;
+}
+#cover-text {
+    top: 500px;
+    left: 50px;
+} 
+
+.social-networks i {
+    font-size: 80%;
+    margin: 10%;
+    padding: 10%;
+    margin-right: 20px;
+    color: #1d1d1d;
+}
+#left-about {
+    padding-top: 5px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#logo {
+    font-size: 200%;
+}
+#menu a {
+    font-size: 80%;
+}
+
+#right-about{
+    padding-top: 5px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}  
+
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 15px;
+    clear: both;
+    font-size: 120%;
+    margin-bottom: 50px;
+}
+
+.right-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 15px;
+    font-size: 120%;
+    clear: both;
+    margin-bottom: 50px;
+
+}
+#menu li {
+    float: left;
+    display: flex;
+    padding: 1em 1em;
+    overflow: auto;
+}
+.video-container {
+    width: 844px;
+    height: 365px;
+    margin-left: 0;
+    overflow: overlay;    
+}      
+iframe {
+    border-width: 1px;
+    width: 844px;
+}
+#events div {
+    margin-top: 80px;
+    color: beige;
+    background-color: rgba(0, 0, 0, .6);
+    width: 90%;
+    height: 300px;
+    text-align: center;
+    border: 1px solid beige;
+    box-sizing: border-box;
+    font-size: 120%;
+    margin-right: 0;
+    padding-right: 0;
+    padding-left: 20px;
+}
+#events {
+    padding: 30px;
+}
+#background-picture {
+    height: 800px;
+}
+p {
+    font-size: 70%;
+    margin-left: 5px;
+}
+#menu a {
+    display: block;
+}
+
+}
+
 @media screen and (max-width: 850px)
 {
     .navbar {
@@ -596,6 +733,142 @@ p {
     font-size: 70%;
     margin-left: 5px;
 }
+}
+@media screen and (max-width: 800px)
+{
+    .navbar {
+        width: 800px;
+    }
+    #background-picture {
+        width: 800px;
+        height: 600px;
+    }
+    #happy-image {
+        width: 800px;
+        height: 600px;
+        background-size: cover;
+        background: url(../images/artificial-intelligence-nanobot-biohacking-concept\ \(3\).jpg)no-repeat;
+       }
+    #video {
+        width: 800px;
+    }
+    
+    .social-networks {
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+}
+    #menu {
+        font-size: 80%;
+        letter-spacing: 8px;
+        display: flex;
+        flex-direction: column;
+}       
+    .social-networks > li {
+        width: 280px;
+        display: flex;
+        justify-content: space-evenly;
+        align-content: space-around;
+}
+.video-container {
+    width: 800px;
+    margin-left: 0;
+}
+#cover-text {
+    top: 500px;
+    left: 50px;
+} 
+
+.social-networks i {
+    font-size: 80%;
+    margin: 10%;
+    padding: 10%;
+    margin-right: 20px;
+    color: #1d1d1d;
+}
+#left-about {
+    padding-top: 5px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#logo {
+    font-size: 200%;
+}
+#menu a {
+    font-size: 80%;
+}
+
+#right-about{
+    padding-top: 5px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}  
+
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 15px;
+    clear: both;
+    font-size: 120%;
+    margin-bottom: 50px;
+}
+
+.right-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 15px;
+    font-size: 120%;
+    clear: both;
+    margin-bottom: 50px;
+
+}
+#menu li {
+    float: left;
+    display: flex;
+    padding: 1em 1em;
+    overflow: auto;
+}
+.video-container {
+    width: 800px;
+    height: 365px;
+    margin-left: 0;
+    overflow: overlay;    
+}      
+iframe {
+    border-width: 1px;
+    width: 800px;
+}
+#events div {
+    margin-top: 80px;
+    color: beige;
+    background-color: rgba(0, 0, 0, .6);
+    width: 90%;
+    height: 300px;
+    text-align: center;
+    border: 1px solid beige;
+    box-sizing: border-box;
+    font-size: 120%;
+    margin-right: 0;
+    padding-right: 0;
+    padding-left: 20px;
+}
+#events {
+    padding: 30px;
+}
+#background-picture {
+    height: 800px;
+}
+p {
+    font-size: 70%;
+    margin-left: 5px;
+}
+#menu a {
+    display: block;
+}
+
 }
 
 @media screen and (max-width: 650px)
@@ -734,24 +1007,23 @@ p {
 }
 
 }
-
-@media screen and (max-width: 400px)
+@media screen and (max-width: 600px)
 {
     .navbar {
-        width: 400px;
+        width: 600px;
     }
     #background-picture {
-        width: 400px;
+        width: 600px;
         height: 600px;
     }
     #happy-image {
-        width: 400px;
+        width: 600px;
         height: 600px;
         background-size: cover;
         background: url(../images/artificial-intelligence-nanobot-biohacking-concept\ \(3\).jpg)no-repeat;
        }
     #video {
-        width: 400px;
+        width: 600px;
     }
     
     .social-networks {
@@ -772,143 +1044,7 @@ p {
         align-content: space-around;
 }
 .video-container {
-    width: 400px;
-    margin-left: 0;
-}
-#cover-text {
-    top: 500px;
-    left: 50px;
-} 
-
-.social-networks i {
-    font-size: 80%;
-    margin: 10%;
-    padding: 10%;
-    margin-right: 20px;
-    color: #1d1d1d;
-}
-#left-about {
-    padding-top: 5px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-}
-#logo {
-    font-size: 200%;
-}
-#menu a {
-    font-size: 80%;
-}
-
-#right-about{
-    padding-top: 5px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-}  
-
-.left-about-heading {
-    width: 60%;
-    float: right;
-    line-height: 15px;
-    clear: both;
-    font-size: 120%;
-    margin-bottom: 50px;
-}
-
-.right-about-heading {
-    width: 60%;
-    float: right;
-    line-height: 15px;
-    font-size: 120%;
-    clear: both;
-    margin-bottom: 50px;
-
-}
-#menu li {
-    float: left;
-    display: inline;
-    padding: 1em 1em;
-    overflow: auto;
-}
-.video-container {
-    width: 400px;
-    height: 365px;
-    margin-left: 0;
-    overflow: overlay;    
-}      
-iframe {
-    border-width: 1px;
-    width: 400px;
-}
-#events div {
-    margin-top: 80px;
-    color: beige;
-    background-color: rgba(0, 0, 0, .6);
-    width: 90%;
-    height: 300px;
-    text-align: center;
-    border: 1px solid beige;
-    box-sizing: border-box;
-    font-size: 120%;
-    margin-right: 0;
-    padding-right: 0;
-    padding-left: 20px;
-}
-#events {
-    padding: 30px;
-}
-#background-picture {
-    height: 800px;
-}
-p {
-    font-size: 70%;
-    margin-left: 5px;
-}
-#menu a {
-    display: block;
-}
-
-}
-@media screen and (max-width: 450px)
-{
-    .navbar {
-        width: 450px;
-    }
-    #background-picture {
-        width: 450px;
-        height: 600px;
-    }
-    #happy-image {
-        width: 450px;
-        height: 600px;
-        background-size: cover;
-        background: url(../images/artificial-intelligence-nanobot-biohacking-concept\ \(3\).jpg)no-repeat;
-       }
-    #video {
-        width: 450px;
-    }
-    
-    .social-networks {
-        display: flex;
-        justify-content: flex-end;
-        flex-direction: column;
-}
-    #menu {
-        font-size: 80%;
-        letter-spacing: 8px;
-        display: flex;
-        flex-direction: column;
-}       
-    .social-networks > li {
-        width: 280px;
-        display: flex;
-        justify-content: space-evenly;
-        align-content: space-around;
-}
-.video-container {
-    width: 450px;
+    width: 600px;
     margin-left: 0;
 }
 #cover-text {
@@ -969,14 +1105,14 @@ p {
     overflow: auto;
 }
 .video-container {
-    width: 450px;
+    width: 600px;
     height: 365px;
     margin-left: 0;
     overflow: overlay;    
 }      
 iframe {
     border-width: 1px;
-    width: 450px;
+    width: 600px;
 }
 #events div {
     margin-top: 80px;
@@ -1007,7 +1143,6 @@ p {
 }
 
 }
-
 @media screen and (max-width: 500px)
 {
     .navbar {
@@ -1144,7 +1279,6 @@ p {
 }
 
 }
-
 @media screen and (max-width: 550px)
 {
     .navbar {
@@ -1282,23 +1416,23 @@ p {
 
 }
 
-@media screen and (max-width: 600px)
+@media screen and (max-width: 450px)
 {
     .navbar {
-        width: 600px;
+        width: 450px;
     }
     #background-picture {
-        width: 600px;
+        width: 450px;
         height: 600px;
     }
     #happy-image {
-        width: 600px;
+        width: 450px;
         height: 600px;
         background-size: cover;
         background: url(../images/artificial-intelligence-nanobot-biohacking-concept\ \(3\).jpg)no-repeat;
        }
     #video {
-        width: 600px;
+        width: 450px;
     }
     
     .social-networks {
@@ -1319,7 +1453,7 @@ p {
         align-content: space-around;
 }
 .video-container {
-    width: 600px;
+    width: 450px;
     margin-left: 0;
 }
 #cover-text {
@@ -1380,14 +1514,14 @@ p {
     overflow: auto;
 }
 .video-container {
-    width: 600px;
+    width: 450px;
     height: 365px;
     margin-left: 0;
     overflow: overlay;    
 }      
 iframe {
     border-width: 1px;
-    width: 600px;
+    width: 450px;
 }
 #events div {
     margin-top: 80px;
@@ -1418,24 +1552,23 @@ p {
 }
 
 }
-
-@media screen and (max-width: 900px)
+@media screen and (max-width: 400px)
 {
     .navbar {
-        width: 900px;
+        width: 400px;
     }
     #background-picture {
-        width: 844px;
+        width: 400px;
         height: 600px;
     }
     #happy-image {
-        width: 844px;
+        width: 400px;
         height: 600px;
         background-size: cover;
         background: url(../images/artificial-intelligence-nanobot-biohacking-concept\ \(3\).jpg)no-repeat;
        }
     #video {
-        width: 844px;
+        width: 400px;
     }
     
     .social-networks {
@@ -1456,7 +1589,7 @@ p {
         align-content: space-around;
 }
 .video-container {
-    width: 844px;
+    width: 400px;
     margin-left: 0;
 }
 #cover-text {
@@ -1512,19 +1645,19 @@ p {
 }
 #menu li {
     float: left;
-    display: flex;
+    display: inline;
     padding: 1em 1em;
     overflow: auto;
 }
 .video-container {
-    width: 844px;
+    width: 400px;
     height: 365px;
     margin-left: 0;
     overflow: overlay;    
 }      
 iframe {
     border-width: 1px;
-    width: 844px;
+    width: 400px;
 }
 #events div {
     margin-top: 80px;
@@ -1556,139 +1689,9 @@ p {
 
 }
 
-@media screen and (max-width: 800px)
-{
-    .navbar {
-        width: 800px;
-    }
-    #background-picture {
-        width: 800px;
-        height: 600px;
-    }
-    #happy-image {
-        width: 800px;
-        height: 600px;
-        background-size: cover;
-        background: url(../images/artificial-intelligence-nanobot-biohacking-concept\ \(3\).jpg)no-repeat;
-       }
-    #video {
-        width: 800px;
-    }
-    
-    .social-networks {
-        display: flex;
-        justify-content: flex-end;
-        flex-direction: column;
-}
-    #menu {
-        font-size: 80%;
-        letter-spacing: 8px;
-        display: flex;
-        flex-direction: column;
-}       
-    .social-networks > li {
-        width: 280px;
-        display: flex;
-        justify-content: space-evenly;
-        align-content: space-around;
-}
-.video-container {
-    width: 800px;
-    margin-left: 0;
-}
-#cover-text {
-    top: 500px;
-    left: 50px;
-} 
 
-.social-networks i {
-    font-size: 80%;
-    margin: 10%;
-    padding: 10%;
-    margin-right: 20px;
-    color: #1d1d1d;
-}
-#left-about {
-    padding-top: 5px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-}
-#logo {
-    font-size: 200%;
-}
-#menu a {
-    font-size: 80%;
-}
 
-#right-about{
-    padding-top: 5px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-}  
 
-.left-about-heading {
-    width: 60%;
-    float: right;
-    line-height: 15px;
-    clear: both;
-    font-size: 120%;
-    margin-bottom: 50px;
-}
 
-.right-about-heading {
-    width: 60%;
-    float: right;
-    line-height: 15px;
-    font-size: 120%;
-    clear: both;
-    margin-bottom: 50px;
 
-}
-#menu li {
-    float: left;
-    display: flex;
-    padding: 1em 1em;
-    overflow: auto;
-}
-.video-container {
-    width: 800px;
-    height: 365px;
-    margin-left: 0;
-    overflow: overlay;    
-}      
-iframe {
-    border-width: 1px;
-    width: 800px;
-}
-#events div {
-    margin-top: 80px;
-    color: beige;
-    background-color: rgba(0, 0, 0, .6);
-    width: 90%;
-    height: 300px;
-    text-align: center;
-    border: 1px solid beige;
-    box-sizing: border-box;
-    font-size: 120%;
-    margin-right: 0;
-    padding-right: 0;
-    padding-left: 20px;
-}
-#events {
-    padding: 30px;
-}
-#background-picture {
-    height: 800px;
-}
-p {
-    font-size: 70%;
-    margin-left: 5px;
-}
-#menu a {
-    display: block;
-}
 
-}
