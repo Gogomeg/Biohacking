@@ -470,13 +470,13 @@ footer {
         height: 600px;
     }
     #happy-image {
-        width: 850px;
+        width: 758px;
         height: 600px;
         background-size: cover;
         background: url(../images/artificial-intelligence-nanobot-biohacking-concept\ \(3\).jpg)no-repeat;
        }
     #video {
-        width: 850px;
+        width: 758px;
     }
     
     .social-networks {
@@ -511,6 +511,8 @@ footer {
     padding: 10%;
     margin-right: 20px;
     color: #1d1d1d;
+    display: flex;
+
 }
 #left-about {
     padding-top: 5px;
@@ -579,7 +581,7 @@ iframe {
     padding: 30px;
 }
 #background-picture {
-    height: 800px;
+    height: 758px;
 }
 p {
     font-size: 70%;
@@ -590,17 +592,17 @@ p {
 @media screen and (max-width: 650px)
 {
     #background-picture {
-        width: 850px;
+        width: 429px;
         height: 600px;
     }
     #happy-image {
-        width: 850px;
+        width: 429px;
         height: 600px;
         background-size: cover;
         background: url(../images/artificial-intelligence-nanobot-biohacking-concept\ \(3\).jpg)no-repeat;
        }
     #video {
-        width: 850px;
+        width: 429px;
     }
     
     .social-networks {
@@ -621,7 +623,7 @@ p {
         align-content: space-around;
 }
 .video-container {
-    width: 200px;
+    width: 429px;
     margin-left: 0;
 }
 #cover-text {
@@ -682,14 +684,14 @@ p {
     overflow: auto;
 }
 .video-container {
-    width: 700px;
+    width: 429px;
     height: 365px;
     margin-left: 0;
     overflow: overlay;    
 }      
 iframe {
     border-width: 1px;
-    width: 400px;
+    width: 429px;
 }
 #events div {
     margin-top: 80px;
@@ -718,4 +720,5 @@ p {
 #menu a {
     display: block;
 }
+
 }
